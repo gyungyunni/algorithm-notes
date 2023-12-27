@@ -21,9 +21,11 @@ public class Arrary {
 
             // 배열의 길이(크기) 확인
             int arrayListSize = myArrayListWithElements.size();
+            System.out.println("배열의 크기: " + arrayListSize);
 
             // 배열의 특정 원소에 접근
             int element = myArrayListWithElements.get(2); // 3번째 원소에 접근
+            System.out.println("3번째 원소: " + element);
 
             // 배열의 원소 변경
             myArrayListWithElements.set(0, 10); // 첫 번째 원소를 10으로 변경
@@ -34,15 +36,21 @@ public class Arrary {
             // 배열의 원소 삭제
             myArrayListWithElements.remove(2); // 3번째 원소 삭제
 
+            int i = 1;
             // 배열 순회(iteration)
             for (int value : myArrayListWithElements) {
-                System.out.println(value);
+                System.out.println(i + "번째 원소는: " + value);
+                i++;
             }
 
             // 배열의 특정 원소 인덱스 찾기
             int index = myArrayListWithElements.indexOf(4); // 4의 인덱스를 찾음
+            System.out.println("4의 인덱스는 " + index);
 
             // 배열 슬라이싱
             ArrayList<Integer> subArrayList = new ArrayList<>(myArrayListWithElements.subList(1, 4)); // 2번째부터 4번째 원소까지 슬라이싱
+            System.out.println("슬라이싱한 원소는 " + subArrayList);
+
+            System.out.println(multiDimensionalArrayList);
         }
 }
