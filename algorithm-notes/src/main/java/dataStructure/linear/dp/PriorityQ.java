@@ -9,8 +9,14 @@ public class PriorityQ {
         // 빈 우선순위 큐 생성
         PriorityQueue<Integer> myPriorityQueue = new PriorityQueue<>();
 
-        // 원소를 포함한 우선순위 큐 생성
+        // 원소를 포함한 우선순위 큐 생성, 오름차순
         PriorityQueue<Integer> myPriorityQueueWithElements = new PriorityQueue<>(List.of(3, 1, 4, 1, 5, 9, 2, 6));
+
+          // 내림차순
+//        PriorityQueue<Integer> myPriorityQueueWithElements = new PriorityQueue<>(Collections.reverseOrder());
+//        myPriorityQueueWithElements.addAll(List.of(3, 1, 4, 1, 5, 9, 2, 6));
+
+
 
         // 우선순위 큐에 원소 추가
         myPriorityQueue.add(5);
@@ -30,9 +36,19 @@ public class PriorityQ {
         System.out.println(minWithoutPush);
 
         System.out.println("순회");
+//        // 우선순위 큐에 저장된 것으로 출력(힙)
+//        for (int element : myPriorityQueueWithElements) {
+//            System.out.println(element);
+//        }
+
         // 우선순위 큐 순회(iteration)
-        for (int element : myPriorityQueueWithElements) {
-            System.out.println(element);
+        // 내림차순
+//        while (!myPriorityQueueWithElements.isEmpty()) {
+//            System.out.println(myPriorityQueueWithElements.poll());
+//        }
+        // 오름차순
+        while (!myPriorityQueueWithElements.isEmpty()) {
+            System.out.println(myPriorityQueueWithElements.poll());
         }
     }
 }
