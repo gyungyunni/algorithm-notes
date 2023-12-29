@@ -3,6 +3,7 @@ package dataStructure.linear.sq;
 import java.util.Arrays;
 import java.util.Stack;
 
+// 스택은 후입선출, DFS에서 활용, 웹 브라우저 방문기록
 public class MyStack {
     public static void main(String[] args) {
         // 빈 스택 생성

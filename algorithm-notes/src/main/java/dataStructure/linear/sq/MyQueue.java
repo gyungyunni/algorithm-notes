@@ -3,6 +3,7 @@ package dataStructure.linear.sq;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// 큐는 선입선출, BFS에서 활용, 프로세스 관리
 public class MyQueue {
     public static void main(String[] args) {
         // 빈 큐 생성
