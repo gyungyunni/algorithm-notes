@@ -1,7 +1,7 @@
 package dataStructure.nonlinear.graph.tree.heap;
 
-import java.util.PriorityQueue;
 import java.util.Collections;
+import java.util.PriorityQueue;
 
 public class MaxHeap {
     private PriorityQueue<Integer> heap;
@@ -24,23 +24,23 @@ public class MaxHeap {
 
     public static void main(String[] args) {
         // 최소 힙 생성
-        MaxHeap myMaxHeap = new MaxHeap();
+        MaxHeap myHeap = new MaxHeap();
 
-        //데이터 삽입
-        myMaxHeap.insert(5);
-        myMaxHeap.insert(3);
-        myMaxHeap.insert(8);
-        myMaxHeap.insert(1);
-        myMaxHeap.insert(10);
+        // 데이터 삽입
+        myHeap.insert(5);
+        myHeap.insert(3);
+        myHeap.insert(8);
+        myHeap.insert(1);
+        myHeap.insert(10);
 
         // 힙 출력
-        myMaxHeap.display();
+        myHeap.display();
 
-        // 최소값 추출
-        Integer maxValue = myMaxHeap.extractMax();
+        // 최대값 추출
+        Integer maxValue = myHeap.extractMax();
         System.out.println("Extracted max value: " + maxValue);
 
         // 힙 출력
-        myMaxHeap.display();
+        myHeap.display();
     }
 }
