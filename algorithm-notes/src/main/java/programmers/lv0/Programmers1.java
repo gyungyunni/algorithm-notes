@@ -1,5 +1,7 @@
 package programmers.lv0;
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/250133
+
 import java.util.Scanner;
 
 public class Programmers1 {
