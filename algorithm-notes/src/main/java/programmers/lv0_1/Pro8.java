@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_1;
 
 class Pro8 {
     public String solution(String[] storage, int[] num) {

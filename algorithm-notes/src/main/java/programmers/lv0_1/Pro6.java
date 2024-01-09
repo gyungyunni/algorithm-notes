@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_1;
 
 public class Pro6 {
     public String[] solution(int[] numbers, int[] our_score, int[] score_list) {

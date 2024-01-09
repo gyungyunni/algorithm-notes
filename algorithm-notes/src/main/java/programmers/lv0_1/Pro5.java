@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_1;
 
 public class Pro5 {
     public int[] solution(String route) {

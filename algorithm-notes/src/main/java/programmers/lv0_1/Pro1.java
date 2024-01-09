@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_1;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/250133
 

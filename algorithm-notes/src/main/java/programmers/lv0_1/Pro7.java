@@ -1,4 +1,4 @@
-package programmers.lv0;
+package programmers.lv0_1;
 
 public class Pro7 {
     public int func1(int humidity, int val_set){
