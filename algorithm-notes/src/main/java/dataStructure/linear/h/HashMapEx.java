@@ -15,6 +15,9 @@ public class HashMapEx {
         hashMap.put("banana", 7);
         hashMap.put("cherry", 3);
 
+        // update data
+        hashMap.replace("banana", 8);
+
         // data query
         System.out.println("apple: " + hashMap.get("apple"));
         System.out.println("banana: " + hashMap.get("banana"));
