@@ -15,10 +15,14 @@ public class Pro6 {
 
                 if (map.containsKey(ch)){
                     if(map.get(ch)> j ){
-                        map.replace(ch,j+1);
+                        // 첫 번째 키 "ABACD"를 처리한 후의 맵은 {A=1, B=2, C=3, D=4}
+                        // 두 번째 키 "BCEFD"를 처리하는 경우:
+                        // {A=1, B=2, C=2, D=4, E=3, F=4}
+                        // 현재 위치가 더 작을 경우 더 작은 값으로 지도를 업데이트
+                        map.replace(ch,j+1); // 현재위치가 더 작은 값이므로 현재 위치로
                     }
                 }else{
-                    map.put(ch,j+1);
+                    map.put(ch,j+1); // 현재 위치 j+1
                 }
             }
         }
