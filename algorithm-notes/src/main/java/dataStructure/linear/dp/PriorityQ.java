@@ -16,8 +16,6 @@ public class PriorityQ {
 //        PriorityQueue<Integer> myPriorityQueueWithElements = new PriorityQueue<>(Collections.reverseOrder());
 //        myPriorityQueueWithElements.addAll(List.of(3, 1, 4, 1, 5, 9, 2, 6));
 
-
-
         // 우선순위 큐에 원소 추가
         myPriorityQueue.add(5);
         myPriorityQueue.add(2);
