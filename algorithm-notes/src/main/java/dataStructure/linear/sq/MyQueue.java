@@ -10,6 +10,7 @@ public class MyQueue {
         Queue<Integer> myQueue = new LinkedList<>();
 
         // 원소를 포함한 큐 생성
+        // offer를 써도 되는데 큐가 꽉 찼을 때, false를 반환
         Queue<Integer> myQueueWithElements = new LinkedList<>();
         myQueueWithElements.add(1);
         myQueueWithElements.add(2);
@@ -21,10 +22,10 @@ public class MyQueue {
         myQueue.add(6);
         myQueue.add(7);
 
-        // 큐에서 원소 추출
+        // 큐에서 원소 추출, poll/remove
         int poppedElement = myQueue.poll();
 
-        // 큐의 가장 앞의 원소 조회 (제거하지 않고)
+        // 큐의 가장 앞의 원소 조회 (제거하지 않고), element/peek
         int peekElement = myQueue.peek();
 
         // 큐가 비어있는지 확인
