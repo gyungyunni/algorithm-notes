@@ -12,7 +12,7 @@ public class PriorityQ {
         // 원소를 포함한 우선순위 큐 생성, 오름차순
         PriorityQueue<Integer> myPriorityQueueWithElements = new PriorityQueue<>(List.of(3, 1, 4, 1, 5, 9, 2, 6));
 
-          // 내림차순
+//          내림차순
 //        PriorityQueue<Integer> myPriorityQueueWithElements = new PriorityQueue<>(Collections.reverseOrder());
 //        myPriorityQueueWithElements.addAll(List.of(3, 1, 4, 1, 5, 9, 2, 6));
 
