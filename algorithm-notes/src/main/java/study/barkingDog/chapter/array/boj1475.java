@@ -16,13 +16,9 @@ public class boj1475 {
             num[s]++;
         }
 
-        if ((num[9] - num[6]) >= 2) { // 9996 같은 경우, 2세트가 필요해서 num[9] = 3을 2로 바꿔줌
-            num[9] = (int) Math.ceil(num[9] / 2.0);
-        }
-
-        if ((num[6] - num[9]) >= 2) {
-            num[6] = (int) Math.ceil(num[6] / 2.0);
-        }
+        num[9]+= num[6];
+        num[6] = 0;
+        num[9] = num[9]%2 + num[9] /2;
 
         set = Arrays.stream(num).max().orElseThrow();
         System.out.println(set);
