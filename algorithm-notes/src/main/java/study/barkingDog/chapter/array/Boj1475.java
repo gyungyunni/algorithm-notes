@@ -2,7 +2,7 @@ package study.barkingDog.chapter.array;
 
 import java.util.*;
 
-public class boj1475 {
+public class Boj1475 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String N = sc.next();

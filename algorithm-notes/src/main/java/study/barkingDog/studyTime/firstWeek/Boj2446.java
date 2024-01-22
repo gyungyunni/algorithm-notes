@@ -2,7 +2,7 @@ package study.barkingDog.studyTime.firstWeek;
 
 import java.util.*;
 
-public class boj2446 {
+public class Boj2446 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
