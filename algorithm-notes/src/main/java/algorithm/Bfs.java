@@ -47,7 +47,7 @@ public class Bfs {
                 {0, 1, 1, 1},
         };
 
-        // 방문 정보
+        // 방문 정보, grid의 행열 넣은거임
         boolean[][] visited = new boolean[grid.length][grid[0].length];
 
         // 예시로 (0, 0)부터 탐색 시작
