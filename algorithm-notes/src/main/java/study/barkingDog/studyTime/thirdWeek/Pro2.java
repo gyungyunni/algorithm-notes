@@ -1,5 +1,5 @@
 package study.barkingDog.studyTime.thirdWeek;
-
+// https://school.programmers.co.kr/learn/courses/30/lessons/92334
 import java.util.*;
 
 public class Pro2 {
