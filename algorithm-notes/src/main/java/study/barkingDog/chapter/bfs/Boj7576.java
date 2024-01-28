@@ -13,7 +13,6 @@ public class Boj7576 {
     static int[] dy = {0, 0, -1, 1};
 
     static void bfs(boolean[][] visited, int[][] grid, Queue<int[]> queue, int[][] dist) {
-        int cnt = 0;
 
         int n = grid.length;
         int m = grid[0].length;
