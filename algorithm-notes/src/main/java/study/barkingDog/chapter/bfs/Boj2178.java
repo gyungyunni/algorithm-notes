@@ -7,6 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+//출발점 알때
 public class Boj2178 {
     // 상, 하, 좌, 우 탐색을 위한 방향 벡터
     static int[] dx = {-1, 1, 0, 0};
