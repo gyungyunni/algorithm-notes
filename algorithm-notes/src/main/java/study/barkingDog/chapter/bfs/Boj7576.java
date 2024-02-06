@@ -12,7 +12,7 @@ public class Boj7576 {
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
 
-    static void bfs(boolean[][] visited, int[][] grid, Queue<int[]> queue, int[][] dist) {
+    static void bfs(int[][] grid, Queue<int[]> queue, int[][] dist) {
 
         int n = grid.length;
         int m = grid[0].length;
@@ -69,9 +69,6 @@ public class Boj7576 {
             }
         }
 
-        // 방문 정보
-        boolean[][] visited = new boolean[grid.length][grid[0].length]; //grid의 행열 넣은거임
-
-        bfs(visited, grid, queue, dist);
+        bfs(grid, queue, dist);
     }
 }
