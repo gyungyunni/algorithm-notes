@@ -23,6 +23,7 @@ public class Boj1992 {
         sb.append(")");
     }
 
+    // 모두 같은 색이어서 압축이 가능한지 체크하는 함수
     private static boolean check(int r, int c, int size) {
         for (int i = r; i < r+size; i++) {
             for (int j = c; j < c+size; j++) {
