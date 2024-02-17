@@ -20,7 +20,7 @@ public class Pro1 {
         }
 
         if(answer3.length() > 0) {
-            // 4단계
+            // 4단계 , substring(1, answer3.length()); 1부터 마지막 글자까지.
             if (answer3.charAt(0) == '.') {
                 answer3 = answer3.substring(1, answer3.length());
             }
