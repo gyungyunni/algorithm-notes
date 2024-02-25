@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
+// https://www.acmicpc.net/problem/21608
 public class Boj21608 {
 
     static int N;
@@ -70,6 +71,9 @@ public class Boj21608 {
                 먼저, 좋아하는 학생이 많이 앉아 있는 좌석을 우선 선택함(maxLike).
                 동률인 경우, 더 많은 빈 인접 좌석이 있는 좌석을 우선 선택함(maxEmpty).
                 선택된 좌석의 좌표인 (x, y)가 업데이트됨
+                현재 좌표의 좋아하는 학생이 인접한 칸 중에서 가장 많은 경우의 수가 현재까지의 최댓값보다 큰 경우 = 1번 조건
+                ||
+                현재 좌표의 좋아하는 학생이 인접한 칸 중에서 가장 많은 경우의 수가 현재까지의 최댓값과 동일하며, 현재 좌표의 빈 칸 수가 현재까지의 최대 빈 칸 수보다 크거나 같은 경우 = 2번조건
                  */
                 if (maxLike < like || (maxLike == like && maxEmpty <= empty)) {
                     maxLike = like;
